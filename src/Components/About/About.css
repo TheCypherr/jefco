@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+  background-color: #fff;
+}
+
+.about-wrapper {
+  padding: 40px 80px 40px 80px;
+  color: #023f67;
+  background-color: #fff;
+}
+
+.inner-about h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.inner-about h4 {
+  text-align: left;
+  font-weight: normal;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+.inner-about p {
+  line-height: 25px;
+  font-size: 1.05rem;
+  text-align: left;
+  font-weight: normal;
+}

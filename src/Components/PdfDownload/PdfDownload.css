@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+  background-color: #fff;
+}
+
+.pdf-wrapper {
+  padding: 10px 80px 80px 80px;
+  text-align: center;
+}
+
+.inner-pdf {
+  text-align: center;
+  font-weight: normal;
+}
+
+/* .inner-pdf h3 {
+} */
+
+.two-btn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.two-btn button {
+  border: none;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 1.1rem;
+  background-color: rgba(133, 5, 5, 0.89);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.two-btn button:hover {
+  background-color: #023f67;
+}

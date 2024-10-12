@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+  background-color: #fff;
+}
+
+.footer-wrapper {
+  background-color: #023f67;
+  color: #fff;
+  margin: 0;
+  padding: 0px 80px 20px 80px;
+}
+
+.footer-top {
+  width: 100%;
+  height: 230px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+hr {
+  margin-top: 5px;
+  width: 210px;
+  border: 1.5px solid #fff;
+}
+hr.new {
+  margin-top: 5px;
+  padding-right: 10px;
+  width: 190px;
+  border: 1.5px solid #fff;
+}
+.footer-t1 {
+  width: 205px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-t1 h1 {
+  font-weight: 100;
+}
+.footer-t1 p {
+  text-align: left;
+  line-height: 25px;
+  padding-top: 10px;
+  font-size: 0.95rem;
+}
+
+.icons {
+  text-align: left;
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.footer-middle {
+  padding: 20px;
+  border-top: 0.5px solid#062b43;
+  border-bottom: 0.5px solid #062b43;
+  margin-bottom: 20px;
+}
+
+.footer-middle ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-middle li {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 0.9rem;
+}
+
+.footer-bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-b1 p {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.directory-logo {
+  width: 110px;
+  overflow: hidden;
+}
+.directory-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.footer-blast {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 320px;
+}
+.card-container {
+  width: 30px;
+  overflow: hidden;
+}
+.card-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

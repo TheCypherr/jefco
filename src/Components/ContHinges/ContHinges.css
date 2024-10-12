@@ -1,0 +1,23 @@
+.extra {
+  width: 360px;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.501) 0px 3px 8px;
+  padding: 5px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.extra-img {
+  width: 300px;
+  height: 350px;
+  overflow: hidden;
+}
+.extra-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

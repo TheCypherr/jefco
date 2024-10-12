@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+  background-color: #fff;
+}
+
+.policy-wrapper {
+  padding: 40px 80px 40px 80px;
+  color: #023f67;
+  background-color: #fff;
+}
+
+.inner-policy h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.policy-text {
+  margin-top: 20px;
+  text-align: left;
+}
+h1.policy-text {
+  text-align: left;
+  margin-bottom: 15px;
+}
+.policy-text h2 {
+  text-align: left;
+  font-weight: normal;
+}
+.policy-text p {
+  padding-top: 10px;
+  text-align: left;
+  font-weight: normal;
+  line-height: 25px;
+}
