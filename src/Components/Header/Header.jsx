@@ -12,6 +12,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handlePageRefresh = () => {
+    navigate("/");
     window.location.reload();
   };
 
@@ -97,7 +98,7 @@ const Header = () => {
         <div className="overlay-container">
           <div className="inner-overlay">
             <div className="logo-container">
-              <Link onClick={handlePageRefresh}>
+              <Link to="/" onClick={handlePageRefresh}>
                 <img src="./jefco-logo.png" alt="logo" />
               </Link>
             </div>
