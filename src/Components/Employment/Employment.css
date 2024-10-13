@@ -67,17 +67,24 @@ button.description:hover {
 /* Portrait View Responsiveness */
 @media (max-width: 600px) {
   .employment-wrapper {
-    padding: 100px 15px 20px 15px;
+    padding: 125px 15px 20px 15px;
     color: #023f67;
     background-color: #fff;
   }
 
   button.head {
+    margin: auto;
     max-width: 95%;
     font-size: 1rem;
   }
 
+  .container-one {
+    margin: auto;
+    max-width: 90%;
+  }
+
   .container-two {
+    margin: auto;
     max-width: 90%;
     font-size: 0.9rem;
   }
@@ -90,6 +97,6 @@ button.description:hover {
 /* Landscape and iPad View */
 @media (min-width: 601px) and (max-width: 750px) {
   .employment-wrapper {
-    padding-top: 100px;
+    padding-top: 125px;
   }
 }

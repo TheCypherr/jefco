@@ -66,7 +66,7 @@ body {
 /* Portrait View Responsiveness */
 @media (max-width: 600px) {
   .industries-wrapper {
-    padding: 100px 15px 20px 15px;
+    padding: 130px 15px 20px 15px;
     color: #023f67;
     background-color: #fff;
   }
@@ -98,7 +98,7 @@ body {
 /* Landscape and iPad View */
 @media (min-width: 601px) and (max-width: 750px) {
   .industries-wrapper {
-    padding: 100px 15px 20px 15px;
+    padding: 125px 15px 20px 15px;
     color: #023f67;
     background-color: #fff;
   }

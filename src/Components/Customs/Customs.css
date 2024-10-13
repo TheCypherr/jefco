@@ -146,6 +146,10 @@ body {
     font-weight: 500;
   }
 
+  .inner-custom-bottom h1 {
+    font-size: 1.5rem;
+  }
+
   .custom-two {
     display: flex;
     flex-direction: column;

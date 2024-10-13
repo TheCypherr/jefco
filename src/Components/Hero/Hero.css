@@ -44,7 +44,7 @@ body {
 /* Portrait View Responsiveness */
 @media (max-width: 600px) {
   .hero-wrapper {
-    padding: 95px 15px 20px 15px;
+    padding: 125px 15px 20px 15px;
   }
 
   .hero-top h1 {
@@ -83,7 +83,7 @@ body {
 /* Landscape and iPad View */
 @media (min-width: 601px) and (max-width: 750px) {
   .hero-wrapper {
-    padding: 95px 15px 20px 15px;
+    padding: 125px 15px 20px 15px;
   }
 
   .hero-top h1 {
@@ -115,7 +115,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    line-height: 20px;
+    line-height: 15px;
+    font-size: 0.9rem;
   }
 }
 
@@ -153,7 +154,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    line-height: 22px;
-    font-size: 1.1rem;
+    line-height: 17px;
+    font-size: 0.9rem;
   }
 }
