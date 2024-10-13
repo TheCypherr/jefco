@@ -15,14 +15,14 @@ body {
   position: absolute;
   left: 1%;
   top: 45%;
-  z-index: 1000;
+  z-index: 100;
 }
 
 .slick-next {
   position: absolute;
   right: 2.5%;
   top: 45%;
-  z-index: 1000;
+  z-index: 100;
 }
 
 .slick-prev,
@@ -33,18 +33,19 @@ body {
 .slick-prev::before,
 .slick-next::before {
   font-size: 40px;
-  color: #fff;
+  color: rgb(53, 53, 53);
   border-radius: 50%;
-  background-color: #000000;
+  background-color: #fff;
 }
 
 /* Loading Bar */
 .load-slide {
   width: 100%;
   height: 6px;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
+  z-index: 1100;
 }
 
 .load-bar {
@@ -52,6 +53,7 @@ body {
   background-color: #2b33ff;
   width: 0%;
   animation: load-bar 2s ease-out forwards;
+  z-index: 1100;
 }
 
 @keyframes load-bar {

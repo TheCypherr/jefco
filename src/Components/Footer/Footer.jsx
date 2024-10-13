@@ -44,8 +44,10 @@ const Footer = () => {
         <div className="footer-t1">
           <h1>CONTACT US</h1>
           <hr className="new" />
-          <p>904-792-4181</p>
-          <p>jmc@jetcomfg.com</p>
+          <div className="p-text">
+            <p>904-792-4181</p>
+            <p>jmc@jetcomfg.com</p>
+          </div>
         </div>
       </div>
       <div className="footer-middle">

@@ -21,3 +21,25 @@
   height: 100%;
   object-fit: contain;
 }
+
+/* Portrait View Responsiveness */
+@media (max-width: 600px) {
+  .extra {
+    width: 320px;
+  }
+
+  .extra-img {
+    width: 260px;
+  }
+}
+
+/* Landscape and iPad View */
+@media (min-width: 601px) and (max-width: 750px) {
+  .extra {
+    width: 320px;
+  }
+
+  .extra-img {
+    width: 260px;
+  }
+}

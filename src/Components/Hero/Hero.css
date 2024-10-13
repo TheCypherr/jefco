@@ -31,12 +31,129 @@ body {
 .hero-bottom {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .side-two {
   width: 45%;
-  line-height: 30px;
+  line-height: 25px;
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Portrait View Responsiveness */
+@media (max-width: 600px) {
+  .hero-wrapper {
+    padding: 95px 15px 20px 15px;
+  }
+
+  .hero-top h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-bottom {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .side-one {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .side-two {
+    margin: auto;
+    max-width: 100%;
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+  }
+}
+
+/* Landscape and iPad View */
+@media (min-width: 601px) and (max-width: 750px) {
+  .hero-wrapper {
+    padding: 95px 15px 20px 15px;
+  }
+
+  .hero-top h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-bottom {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .side-one {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .side-two {
+    margin: auto;
+    max-width: 100%;
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1115px) {
+  .hero-wrapper {
+    padding: 15px 15px 20px 15px;
+  }
+
+  .hero-top h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-bottom {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .side-one {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .side-two {
+    margin: auto;
+    max-width: 100%;
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 22px;
+    font-size: 1.1rem;
+  }
 }

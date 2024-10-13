@@ -1,24 +1,15 @@
 import React, { useRef } from "react";
 import "./PdfDownload.css";
-import { useScroll } from "../../utils/ScrollContext";
-import { useEffect } from "react";
 
 const PdfDownload = () => {
-  const { registerRef } = useScroll();
-  const targetRef = useRef(null);
-
-  useEffect(() => {
-    registerRef("pdfScroll", targetRef.current);
-  }, [registerRef]);
-
   return (
-    <section className="pdf-wrapper" ref={targetRef}>
+    <section className="pdf-wrapper">
       <div className="inner-pdf">
         <h3>
           DOWNLOAD PRINTABLE APPLICATION or FILL OUT EDITABLE APPLICATION BELOW
         </h3>
         <div className="two-btn">
-          <a href="/JEFCO-APPLICATION-FORM-Editable.pdf" download>
+          <a href="/JEFCO-APPLICATION-FORM.pdf" download>
             <button>Adobe Printable Application</button>
           </a>
           <a href="/JEFCO-APPLICATION-FORM-Editable.pdf" download>
@@ -30,7 +21,11 @@ const PdfDownload = () => {
           Reader:
         </h3>
         <div className="two-btn">
-          <a href="/JEFCO-APPLICATION-FORM.pdf" download>
+          <a
+            href="https://get.adobe.com/reader/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button>Download Acrobat Reader</button>
           </a>
         </div>

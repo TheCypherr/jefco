@@ -2,17 +2,12 @@ import React, { useState } from "react";
 import "./Employment.css";
 import { FaTimes, FaMinus } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import { useScroll } from "../../utils/ScrollContext";
 
 const Employment = () => {
-  const { scrollToSection } = useScroll();
   const navigate = useNavigate();
   const [activeIndex, setActiveIndex] = useState(0);
   const [loading, setLoading] = useState(false);
 
-  const handlePdfScroll = (sectionKey) => {
-    scrollToSection(sectionKey);
-  };
   // Toggle active index content
   const toggleContent = (index) => {
     if (activeIndex === index) {
@@ -70,7 +65,6 @@ const Employment = () => {
                   className="description"
                   onClick={() => {
                     handlePageLoading(item.link);
-                    handlePdfScroll("pdfScroll");
                   }}
                 >
                   {item.button}

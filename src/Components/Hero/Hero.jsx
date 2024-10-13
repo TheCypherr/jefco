@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="hero-bottom">
         <div className="side-one">
           <iframe
-            width="600"
+            width="500"
             height="338"
             src="https://www.youtube.com/embed/tyuhWA02uTE"
             title="Welcome to Jefco Manufacturing!"
@@ -35,6 +35,7 @@ const Hero = () => {
             hinges and gate hardware on hand, so we are prepared to supply
             products quickly and efficiently.
           </p>
+          <br />
           <p>
             At Jefco Manufacturing, your satisfaction is our priority, and we
             invite you to experience the finest in product quality and service

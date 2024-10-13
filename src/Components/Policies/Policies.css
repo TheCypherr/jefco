@@ -39,3 +39,44 @@ h1.policy-text {
   font-weight: normal;
   line-height: 25px;
 }
+
+/* Portrait View Responsiveness */
+@media (max-width: 600px) {
+  .policy-wrapper {
+    padding: 100px 25px 60px 25px;
+    color: #023f67;
+    background-color: #fff;
+  }
+
+  h1.policy-text {
+    font-size: 1.5rem;
+    font-style: italic;
+  }
+}
+
+/* Landscape and iPad View */
+@media (min-width: 601px) and (max-width: 750px) {
+  .policy-wrapper {
+    padding: 100px 50px 60px 50px;
+    color: #023f67;
+    background-color: #fff;
+  }
+
+  h1.policy-text {
+    font-size: 1.5rem;
+    font-style: italic;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1115px) {
+  .policy-wrapper {
+    padding: 25px 50px 60px 50px;
+    color: #023f67;
+    background-color: #fff;
+  }
+
+  h1.policy-text {
+    font-size: 1.5rem;
+    font-style: italic;
+  }
+}

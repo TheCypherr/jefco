@@ -22,7 +22,10 @@ body {
 }
 
 .hinges-container {
+  margin: auto;
+  max-width: 100%;
   display: grid;
+  place-items: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
@@ -57,4 +60,97 @@ body {
   font-size: 1.2rem;
   font-weight: normal;
   text-align: center;
+}
+
+/* Portrait View Responsiveness */
+@media (max-width: 600px) {
+  .hinges-wrapper {
+    padding: 100px 15px 20px 15px;
+    color: #023f67;
+    background-color: #fff;
+  }
+
+  .inner-hinges h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  .hinges-container {
+    margin: auto;
+    max-width: 100%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .contain-one {
+    width: 320px;
+  }
+
+  .hinge-img {
+    width: 260px;
+  }
+}
+
+/* Landscape and iPad View */
+@media (min-width: 601px) and (max-width: 750px) {
+  .hinges-wrapper {
+    padding: 100px 15px 20px 15px;
+    color: #023f67;
+    background-color: #fff;
+  }
+
+  .inner-hinges h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  .hinges-container {
+    margin: auto;
+    max-width: 100%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .contain-one {
+    width: 320px;
+  }
+
+  .hinge-img {
+    width: 260px;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1115px) {
+  .hinges-wrapper {
+    padding: 20px 15px 20px 15px;
+    color: #023f67;
+    background-color: #fff;
+  }
+
+  .inner-hinges h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .hinges-container {
+    margin: auto;
+    max-width: 100%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
 }

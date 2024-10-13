@@ -45,3 +45,12 @@ body {
 .two-btn button:hover {
   background-color: #023f67;
 }
+
+/* Portrait View Responsiveness */
+@media (max-width: 600px) {
+  .pdf-wrapper {
+    padding: 10px 20px 60px 20px;
+    color: #023f67;
+    background-color: #fff;
+  }
+}

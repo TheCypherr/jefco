@@ -52,6 +52,16 @@ hr.new {
   font-size: 0.95rem;
 }
 
+.p-text {
+  padding: 0;
+  line-height: 1px;
+  display: flex;
+  flex-direction: column;
+}
+.p-text p {
+  margin-bottom: -10px;
+}
+
 .icons {
   text-align: left;
   margin-top: 15px;
@@ -116,4 +126,266 @@ hr.new {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Portrait View Responsiveness */
+@media (max-width: 600px) {
+  .footer-wrapper {
+    background-color: #023f67;
+    height: 100%;
+    color: #fff;
+    margin: 0;
+    padding: 0px 20px 20px 20px;
+  }
+
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-top: 30px;
+  }
+
+  hr {
+    width: 100%;
+  }
+  hr.new {
+    width: 100%;
+  }
+
+  .footer-t1 {
+    width: 100%;
+  }
+  .footer-t1 p {
+    text-align: center;
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .directory-logo {
+    width: 110px;
+    overflow: hidden;
+  }
+  .directory-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .p-text {
+    margin-bottom: 20px;
+  }
+
+  .footer-middle {
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer-middle ul {
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .footer-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-b1 {
+    margin-bottom: 15px;
+  }
+
+  .footer-blast {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+}
+
+/* Landscape and iPad View */
+@media (min-width: 601px) and (max-width: 750px) {
+  .footer-wrapper {
+    background-color: #023f67;
+    color: #fff;
+    margin: 0;
+    padding: 0px 20px 20px 20px;
+  }
+
+  .footer-top {
+    gap: 5px;
+    padding-top: 30px;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+
+  hr {
+    width: 110px;
+    padding-right: 10px;
+  }
+  hr.new {
+    width: 80px;
+    padding-right: 40px;
+  }
+
+  .footer-t1 {
+    width: 130px;
+  }
+
+  .footer-t1 h1 {
+    font-weight: 100;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .footer-t1 p {
+    text-align: left;
+    line-height: 15px;
+    padding-top: 10px;
+    font-size: 0.7rem;
+    width: 100%;
+  }
+
+  .footer-logo {
+    width: 7rem;
+    height: 7rem;
+    overflow: hidden;
+  }
+  .footer-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .icons {
+    margin-top: 10px;
+  }
+
+  .footer-middle {
+    padding: 15px;
+  }
+
+  .footer-middle ul {
+    max-width: 100%;
+    width: 90%;
+  }
+
+  .footer-middle li {
+    font-size: 0.8rem;
+  }
+
+  .directory-logo {
+    width: 70px;
+  }
+
+  .footer-b1 p {
+    font-size: 0.8rem;
+    font-weight: normal;
+    width: 300px;
+  }
+
+  .footer-blast {
+    width: 280px;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1115px) {
+  .footer-wrapper {
+    background-color: #023f67;
+    color: #fff;
+    margin: 0;
+    padding: 0px 20px 20px 20px;
+  }
+
+  .footer-top {
+    gap: 15px;
+    padding-top: 30px;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+
+  hr {
+    width: 110px;
+    padding-right: 30px;
+  }
+  hr.new {
+    width: 40px;
+    padding-right: 100px;
+  }
+
+  .footer-t1 {
+    width: 150px;
+  }
+
+  .footer-t1 h1 {
+    font-weight: 100;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .footer-t1 p {
+    text-align: left;
+    line-height: 15px;
+    padding-top: 10px;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .footer-logo {
+    width: 7rem;
+    height: 7rem;
+    overflow: hidden;
+  }
+  .footer-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .icons {
+    margin-top: 10px;
+  }
+
+  .footer-middle {
+    padding: 15px;
+  }
+
+  .footer-middle ul {
+    max-width: 100%;
+    width: 90%;
+  }
+
+  .footer-middle li {
+    font-size: 1rem;
+  }
+
+  .directory-logo {
+    width: 70px;
+  }
+
+  .footer-b1 p {
+    font-size: 0.9rem;
+    font-weight: normal;
+    width: 300px;
+  }
+
+  .footer-blast {
+    width: 280px;
+  }
 }
