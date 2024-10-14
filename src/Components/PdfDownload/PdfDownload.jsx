@@ -31,8 +31,7 @@ const PdfDownload = () => {
         </div>
         <h3>
           Once the application is filled out you can either email it, fax it to
-          904-792-4181 or feel free to stop by our facilities and drop it off in
-          person.
+          904-792-4181.
         </h3>
         <h3>Resume Submission E-mail Address: applications@jefco.com</h3>
       </div>
