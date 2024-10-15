@@ -77,6 +77,10 @@ a.description:hover {
     background-color: #fff;
   }
 
+  .inner-employment h2 {
+    font-size: 1.3rem;
+  }
+
   button.head {
     margin: auto;
     max-width: 95%;
