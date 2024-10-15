@@ -50,7 +50,8 @@ body {
 
 .load-bar {
   height: 100%;
-  background-color: #145d8e;
+  background-color: #0672de;
+  /* background-color: #145d8e; */
   width: 0%;
   animation: load-bar 2s ease-out forwards;
   z-index: 1100;

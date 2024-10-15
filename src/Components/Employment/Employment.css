@@ -51,16 +51,21 @@ button.head {
   padding: 10px;
   line-height: 27px;
 }
-button.description {
-  margin-top: 15px;
+
+.container-two p {
+  padding-bottom: 20px;
+}
+
+a.description {
   padding: 10px;
+  text-decoration: none;
   font-size: 1rem;
   border: none;
   color: #fff;
   cursor: pointer;
   background-color: #023f67;
 }
-button.description:hover {
+a.description:hover {
   background-color: #023f67e2;
 }
 
@@ -75,7 +80,7 @@ button.description:hover {
   button.head {
     margin: auto;
     max-width: 95%;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .container-one {
@@ -89,8 +94,8 @@ button.description:hover {
     font-size: 0.9rem;
   }
 
-  button.description {
-    font-size: 0.9rem;
+  a.description {
+    font-size: 0.8rem;
   }
 }
 
@@ -98,5 +103,7 @@ button.description:hover {
 @media (min-width: 601px) and (max-width: 750px) {
   .employment-wrapper {
     padding-top: 125px;
+    color: #023f67;
+    background-color: #fff;
   }
 }

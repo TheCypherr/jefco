@@ -4,9 +4,9 @@ import { FaTimes, FaMinus } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
 const Employment = () => {
-  const navigate = useNavigate();
   const [activeIndex, setActiveIndex] = useState(0);
   const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
 
   // Toggle active index content
   const toggleContent = (index) => {
@@ -31,17 +31,21 @@ const Employment = () => {
       head: "Office Manager",
       details:
         "Summary: The Office Manager is responsible for the organization and coordination of office operations, procedures and resources to facilitate organizational effectiveness and efficiency. Support all accounts payable and receivable functions. Watch over and sets up all customer accounts. Submit payment for all invoices due. Help resolve any issues with customers and vendors.",
-      button: "Full Job Description and Requirement",
+      text: "Full Job Description and Requirement",
+      doc: "/19-Office-Manager.pdf",
+      download: true,
     },
     {
       head: "Experienced Line Operators - All shifts",
       details: "1st, 2nd, 3rd Shifts Available",
-      button: "Full Job Description and Requirement",
+      text: "Full Job Description and Requirement",
+      doc: "/6-Line Operator (eff 12_2016).pdf",
+      download: true,
     },
     {
       head: "Experienced Metal Finishers / Racker",
       details: "Contact us for more details",
-      button: "Contact Us",
+      text: "Contact Us",
       link: "/",
     },
   ];
@@ -61,14 +65,14 @@ const Employment = () => {
             {activeIndex === index && (
               <div className="container-two">
                 <p>{item.details}</p>
-                <button
+                <a
                   className="description"
-                  onClick={() => {
-                    handlePageLoading(item.link);
-                  }}
+                  download={item.download ? item.doc.split("/").pop() : ""}
+                  onClick={() => handlePageLoading(item.link)}
+                  href={item.doc}
                 >
-                  {item.button}
-                </button>
+                  {item.text}
+                </a>
               </div>
             )}
           </div>

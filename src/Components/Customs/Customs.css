@@ -29,6 +29,12 @@ body {
   text-align: center;
 }
 
+.custom-hinges {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
 .custom-two {
   margin-top: 20px;
   display: flex;
