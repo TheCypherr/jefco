@@ -46,7 +46,7 @@ const Footer = () => {
           <hr className="new" />
           <div className="p-text">
             <p>904-792-4181</p>
-            <p>jmc@jetcomfg.com</p>
+            <p>jmc@jefmfgco.com</p>
           </div>
         </div>
       </div>

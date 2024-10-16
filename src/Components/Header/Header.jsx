@@ -87,16 +87,6 @@ const Header = () => {
       name: "GATE HARDWARE",
       link: "/gate-hardware",
     },
-    // {
-    //   name: "CUSTOM",
-    //   subItems: [
-    //     { label: "DESIGN SPECIFICATIONS", link: "/design" },
-    //     { label: "MANUFACTURING PROCESSES", link: "/manufacture" },
-    //     { label: "FINISHES", link: "/finishes" },
-    //     { label: "PROCESSES AND EQUIPMENTS", link: "/process" },
-    //     { label: "CUSTOM HINGE ORDERING", link: "/order" },
-    //   ],
-    // },
     {
       name: "INDUSTRIES SERVED",
       link: "/industries-served",
